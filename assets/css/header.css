@@ -1,0 +1,45 @@
+#header {
+    height: 560px;
+    width: 100%;
+    background-color: var(--bgSite);
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    height: 359.75px;
+    width: 500px;
+    margin: 77px 104px 123.25px 0;
+}
+
+.header-descript {
+    height: 303.5px;
+    width: 389px;
+
+    margin: 120px 0 119px 100px;
+}
+
+.title h2{
+    font-family: 'Merriweather' serif;
+    font-size: 36px;
+    font-weight: 400;
+
+    margin-bottom: 17.5px;
+}
+
+.text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+
+    margin-bottom: 20px;
+}
+
+input[art]{ /*Você é livre para criar atributos*/
+    font-size: 20px;
+    width: 155px;
+    height: 50px;
+}
