@@ -55,6 +55,11 @@
     font-weight: 400;
     font-size: 18px;
     color: var(--text, 74%);
+
+    /* 
+     * Pode tentar limpar automaticamente essa
+     * area após recarrecar a página usando JavaScript
+    */
 }
 
 .botao {
