@@ -1,0 +1,9 @@
+.main-cards {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.color-red {
+    height: 200px;
+    background-color: red;
+}
