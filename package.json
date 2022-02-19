@@ -1,0 +1,24 @@
+{
+  "name": "one-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igords-goncalves/desafio-3-codelandia.git"
+  },
+  "keywords": [],
+  "author": "Igor Gonçalves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Igords-goncalves/desafio-3-codelandia/issues"
+  },
+  "homepage": "https://github.com/Igords-goncalves/desafio-3-codelandia#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

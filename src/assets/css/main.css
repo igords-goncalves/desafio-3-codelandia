@@ -4,6 +4,12 @@
     flex-direction: column;
 }
 .color-red {
-    height: 200px;
+    height: 222px;
+    width: 340px;
     background-color: red;
+}
+.color-green {
+    height: 222px;
+    width: 340px;
+    background-color: green;
 }
