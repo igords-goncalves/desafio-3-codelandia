@@ -1,7 +1,8 @@
 body {
     height: 100vh;
+    width: 100%;
 }
 
 .botao:hover {
-    color: var(--bgSite);
+    color: var(--bg-site);
 }

@@ -1,15 +1,54 @@
-.main-cards {
+main {
     width: 300px;
-    display: flex;
-    flex-direction: column;
+    background-color: #d4c8b2;
 }
+
+.cards {
+    padding: 150px 0 150px 0;
+}
+
 .color-red {
     height: 222px;
-    width: 340px;
-    background-color: red;
+    width: 100%;
+    background-color: #FF0000;
 }
 .color-green {
     height: 222px;
-    width: 340px;
-    background-color: green;
+    width: 100%;
+    background-color: #008000;
+}
+.color-yellow {
+    height: 222px;
+    width: 100%;
+    background-color: #FFFF00;
+}
+.color-blue {
+    height: 222px;
+    width: 100%;
+    background-color: #0000FF;
+}
+.color-orange {
+    height: 222px;
+    width: 100%;
+    background-color: #FFA500;
+}
+.color-purple {
+    height: 222px;
+    background-color: #800080;
+}
+
+.descript {
+    font-family: 'Merriweather' serif;
+    margin: 24px 0 68px 0;
+    height: 100px;
+    padding: 20px;
+
+}
+
+.descript > h2 {
+    font-size: 1.5rem;
+}
+
+.descript p {
+    font-size: 1.125rem;
 }
