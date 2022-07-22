@@ -1,0 +1,35 @@
+footer {
+    grid-area: footer;
+    background-color: var(--bg-site);
+}
+
+.form {
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h2 {
+    font-family: var(--font-title);
+    color: var(--title);
+}
+
+input, textarea {
+    width: 350px;
+    height: 50px;
+    margin: 10px 0 0 0;
+    outline: none;
+    padding: 10px;
+
+    border: none;
+    font-family: var(--font-text);
+    color: var(--text-input);
+}
+
+textarea {
+    height: 150px;
+}
