@@ -25,7 +25,7 @@ const Header = (props) => {
                     </button>
                 </div>
                 <div className="header-image">
-                    <img src="../assets/img" alt="gifts" className="image" />
+                    <img src="../../assets/img/image.svg" alt="gifts" className="image" />
                 </div>
             </div>
         </header>
