@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "../button/Button";
 
+import image from "../../assets/img/image.png"
+
 import "./Header.css";
 
 const Header = (props) => {
@@ -28,7 +30,7 @@ const Header = (props) => {
                 </div>
                 <div className="header-image">
                     <img
-                        src="../../assets/img/image.svg"
+                        src={image}
                         alt="gifts"
                         className="image"
                     />
