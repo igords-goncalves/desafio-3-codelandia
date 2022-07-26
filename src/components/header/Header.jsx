@@ -1,6 +1,7 @@
 import React from "react";
+import Button from "../button/Button";
 
-import './Header.css';
+import "./Header.css";
 
 const Header = (props) => {
     return (
@@ -16,16 +17,21 @@ const Header = (props) => {
                         outras. Cores secundárias surgem da união de duas cores
                         primárias.
                     </p>
-                    <button
+                    <Button
                         className="botao"
                         name="botao"
-                        atrubute="atr-header"
+                        atribute="atr-header"
+                        value="Contato"
                     >
                         Contato
-                    </button>
+                    </Button>
                 </div>
                 <div className="header-image">
-                    <img src="../../assets/img/image.svg" alt="gifts" className="image" />
+                    <img
+                        src="../../assets/img/image.svg"
+                        alt="gifts"
+                        className="image"
+                    />
                 </div>
             </div>
         </header>
