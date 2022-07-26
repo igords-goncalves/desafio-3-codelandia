@@ -11,10 +11,12 @@ const Header = (props) => {
             <div className="header">
                 <div className="header-descript">
                     <h2 className="title">
+                        {/* TODO: fix a bug on font family */}
                         O significado psicológico das cores primárias e
                         secundárias.
                     </h2>
                     <p className="text">
+                        {/* TODO: fix a bug on letter spacing and font family*/}
                         Cores primárias são as “cores puras”, que não surgem de
                         outras. Cores secundárias surgem da união de duas cores
                         primárias.
