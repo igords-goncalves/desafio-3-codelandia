@@ -1,12 +1,15 @@
 import React from "react";
 import Form from "./form/Form";
+import "./Footer.css";
 
-const Footer = props => {
+const Footer = (props) => {
     return (
-        <div className="form">
-            <Form />
-        </div>
-    )
-}
+        <footer>
+            <div className="form">
+                <Form />
+            </div>
+        </footer>
+    );
+};
 
 export default Footer;
