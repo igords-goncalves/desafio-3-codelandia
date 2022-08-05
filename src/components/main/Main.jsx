@@ -1,7 +1,7 @@
 import React from "react";
 
-const Header = (props) => {
+const Main = (props) => {
     return <div className="cards"></div>;
 };
 
-export default Header;
+export default Main;
