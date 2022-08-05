@@ -1,0 +1,6 @@
+main {
+    grid-area: main;
+    grid-column: span 1;
+    padding: 50px;
+
+}
