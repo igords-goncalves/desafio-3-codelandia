@@ -1,7 +1,11 @@
 import React from "react";
 
 const Main = (props) => {
-    return <div className="cards"></div>;
+    return (
+        <main>
+            <div className="cards"></div>
+        </main>
+    );
 };
 
 export default Main;
